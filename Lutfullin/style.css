@@ -1,0 +1,10 @@
+body{
+    background-image: url(./img/Group\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
