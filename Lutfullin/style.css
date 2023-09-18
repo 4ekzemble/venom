@@ -140,3 +140,74 @@ button{
     display: flex;
     gap: 30px;
 }
+
+@media screen and (max-width:375px) {
+    .main{
+        display: block;
+        text-align: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main img{
+        max-width: 320px;
+    }
+    .play{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    video{
+        max-width: 320px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right{
+        padding-top: 30px;
+        display: block;
+        text-align: center;
+    }
+    .left{
+        display: block;
+    }
+
+    .description{
+        max-width: 350px;
+        font-size: 12px;
+        padding: 0;
+    }
+    .disp{
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+
+    .venom{
+        width: 250px;
+        height: 100px;
+    }
+    
+    main{
+        text-align: center;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
