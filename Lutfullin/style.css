@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 body{
     background-image: url(./img/Group\ 6\ \(1\).png);
     background-repeat: no-repeat;
@@ -7,4 +18,125 @@ body{
 ul{
     display: flex;
     list-style: none;
+    gap: 30px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    padding-top: 20px;
+}
+
+.september{
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 56px;
+}
+
+.venom{
+    width: 1200px;
+    height: 300px;
+    padding-top: 14px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 24px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    color: #8D0019;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.btn p{
+    margin: 0;
+}
+
+.btn2{
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.role{
+    color: #ffffff;
+}
+
+.disp{
+    display: flex;
+    gap: 63px;
+}
+
+h2,h3{
+    color: #ffffff;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.disp p{
+    margin: 0;
+}
+
+button{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.video{
+    width: 356px;
+    height: 205px;
+    position: relative;
+    z-index: 99;
+}
+
+.play{
+    margin-left: 156px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc p{
+    color: #ffffff;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
 }
